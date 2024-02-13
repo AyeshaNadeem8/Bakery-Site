@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Grain Bakery</title>
+    <!--BootStrap cdns-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <!--Jquery cdn-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!--Icon cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--animation cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Link style sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <!--JQuery-->
+    <script>
+        $(document).ready(function(){
+          $("#myButton").click(function(){
+            alert("Submitted!");
+          });
+        });
+        $(document).ready(function(){
+          $("#msgButton").click(function(){
+            alert("Thanks for your Suggestion");
+          });
+        });
+        $(document).ready(function(){
+          $("#subscribebtn").click(function(){
+            alert("Subscribed Successfully :)");
+          });
+        });
+        </script>
+</head>
+
+<body>
+    <!--Hero Header-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="logo" width="30" height="24">
+                    Golden Grain Bakery
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home"><i class="fas fa-home"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product"> <i class="fas fa-birthday-cake"></i>Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blogs"> <i class="fas fa-blog"></i>Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review"> <i class="fas fa-star"></i>Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"> <i class="fas fa-phone"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--End of Header-->
+    <!--Home Section-->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2><span style="color: orange;">Delicious Cake</span> <span style="color: black;">for Everyone</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi doloribus, fuga quod deserunt
+                recusandae?</p>
+        </div>
+    </section>
+    <!--End Home Section-->
+    <!--Product Section-->
+    <section class="product" id="product">
+        <div class="productContent">
+            <h2><span style="color: orange;">Our Exclusive</span> <span style="color: black;">Products</span></h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div class="card" style="width: 288px;">
+                        <img src="chocolate cake.jpg" class="card-img-top" alt="chocolate cake" width="400px"
+                            height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Fancy Coco Cakes</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div class="card" style="width: 288px;">
+                        <img src="red velvet cake.jpeg" class="card-img-top" alt="red velvet" width="400px"
+                            height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Velvet Cake</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div class="card" style="width: 288px;">
+                        <img src="coffee cake.jpg" class="card-img-top" alt="coffee cake" width="400px" height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee Cake</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div class="card" style="width: 288px;">
+                        <img src="donut.jpg" class="card-img-top" alt="donut" width="400px" height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Nutella Donut</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div class="card" style="width: 288px;">
+                        <img src="lemon cake.jpeg" class="card-img-top" alt="lemon cake" width="400px" height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Lemon Cake</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div class="card" style="width: 288px;">
+                        <img src="caramel cake.jpeg" class="card-img-top" alt="caramel cake" width="400px"
+                            height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Caramel Cake</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div class="card" style="width: 288px;">
+                        <img src="almond maccaron.jpeg" class="card-img-top" alt="cookies" width="400px" height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Almond Macaroon</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="5000">
+                    <div class="card" style="width: 288px;">
+                        <img src="cruffins.jpeg" class="card-img-top" alt="cruffins" width="400px" height="350px">
+                        <div class="card-body">
+                            <h5 class="card-title">Cruffins</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Product Section-->
+    <!--Blog Section-->
+    <section class="blogs" id="blogs">
+        <h4>Blogs</h4>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="blog 1.jpeg" class="d-block w-100" alt="cupcake" width="100" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sweet Whispers</h5>
+                        <p>“Crafted with passion, our cakes promise a heavenly taste in every bite.”</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="blog 2.jpeg" class="d-block w-100" alt="basket" width="100" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Crust & Crumble</h5>
+                        <p>“From our oven to your table, our breads, buns, and cookies offer the perfect blend of
+                            freshness, flavor, and unforgettable crunch.”</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="blog 3.jpeg" class="d-block w-100" alt="dollar cake" width="100" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>House of Baking</h5>
+                        <p>"Sit back and enjoy the soothing views of nature from our bakery, where the aroma of fresh
+                            bakes and the sight of lush trees will fill your heart with joy and tranquility."</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!--End Blog Section-->
+    <!--NewsLetter Section-->
+    <section class="newsletter">
+        <form action="">
+            <h3>subscribe for latest update</h3>
+            <input type="email" placeholder="enter your email" class="box" required="required">
+            <button type="button" class="box2" id="subscribebtn">Subscribe</button>
+        </form>
+    </section>
+    <!--End Newsletter Section-->
+    <!--Review Section-->
+    <section class="review" id="review">
+        <div class="reviewContent">
+            <h2><span style="color: orange;">Client</span> <span style="color: black;">Review</span></h2>
+        </div>
+        <div class="container my-4">
+            <div class="row mb-2">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="5000">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-warning">Client 1</strong>
+                            <h3 class="mb-0">Ethan</h3>
+                            <div class="mb-1 text-muted">Jan 12</div>
+                            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                                lead-in to additional content.</p>
+                                </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="client 1.jpeg" alt="client1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="5000">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-warning">Client 2</strong>
+                            <h3 class="mb-0">Sophia</h3>
+                            <div class="mb-1 text-muted">Jan 24</div>
+                            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="client 2.jpg" alt="client2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="5000">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-warning">Client 3</strong>
+                            <h3 class="mb-0">Aria</h3>
+                            <div class="mb-1 text-muted">Dec 10</div>
+                            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                                lead-in to additional content.</p>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="client 3.jpg" alt="client3">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="5000">
+                    <div
+                        class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-warning">Client 4</strong>
+                            <h3 class="mb-0">Liam</h3>
+                            <div class="mb-1 text-muted">Dec 20</div>
+                            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="client 4.jpg" alt="client4">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Review Section-->
+    <!--Contact Section-->
+    <section class="contact-form" id="contactForm">
+        <h1><span style="color: orange;">Contact</span> <span style="color: black;">Me</span></h1>
+        <div class="contact-row">
+            <!--Left Column Starts-->
+            <div class="contact-col column-1" data-aos="zoom-out">
+                <div class="contactTitle">
+                    <h2>Get In Touch</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                </div>
+    
+                <form class="form-1">
+                    <div class="inputGroup">
+                        <input type="text" name="" required="required">
+                        <label>Your Name</label>
+                    </div>
+    
+                    <div class="inputGroup">
+                        <input type="email" name="" required="required">
+                        <label>Email</label>
+                    </div>
+                    <button id="myButton" class="btn btn-outline-warning">Submit</button>
+                </form>
+    
+                <div class="contactSocialMedia">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <!--Left Column Ends-->
+            <!--Right Column Starts-->
+            <div class="contact-col column-2" data-aos="zoom-out">
+                <form class="form-2">
+                    <div class="inputGroup">
+                        <textarea required="required"></textarea>
+                        <label>Say Something</label>
+                    </div>
+                    <button id="msgButton" class="form-button">Message Me</button>
+                </form>
+            </div>
+            <!--Right Column Ends-->
+        </div>
+    </section>
+    <!--End Contact Section-->
+    <!--Footer-->
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="logo.png" alt=""></a>
+                    <h1 class="logoName">Golden Grain Bakery</h1>
+                </div>
+                <p>The best and fresh products only.</p>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-link"></i>Quick link</h3>
+                <ul>
+                    <a href="#home"><i class="fas fa-home"></i>Home</a>
+                    <a href="#product"><i class="fas fa-birthday-cake"></i>Product</a>
+                    <a href="#blogs"><i class="fas fa-blog"></i>Blogs</a>
+                    <a href="#review"><i class="fas fa-star"></i>Review</a>
+                    <a href="#contact"><i class="fas fa-phone"></i>Contact</a>
+            </div>
+
+            <div class="box">
+                <h3><i class="fas fa-link"></i>Extra link</h3>
+                <a href="#"><i class="fas fa-user"></i>Account info</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i>Order item</a>
+                <a href="#"><i class="fas fa-user-secret"></i>Privacy policy</a>
+                <a href="#"><i class="fas fa-credit-card"></i>Payment method</a>
+                <a href="#"><i class="fas fa-cogs"></i>Our services</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+
+                <a href="#"><i class="fas fa-phone"></i>+92 300 1112227</a>
+                <a href="#"><i class="fas fa-envelope"></i>goldengrainbakery@gmail.com</a>
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit">
+            Created by <span>Ms. Ayesha Nadeem </span> |All rights reserved !
+        </div>
+    </footer>
+    <!--End of Footer-->
+    <script>
+        AOS.init({
+            offset: 300
+        });
+    </script>
+</body>
+
+</html>

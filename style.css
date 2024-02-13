@@ -1,0 +1,386 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.header .navbar-brand a {
+    text-decoration: underline;
+}
+
+.header .navbar-nav a {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.header .navbar a {
+    width: 100%;
+    float: left;
+    padding: 7px;
+    border-bottom: 1px solid transparent;
+}
+
+.header .navbar a:hover {
+    border-bottom: 1px solid orange;
+    padding-bottom: 4px;
+}
+
+.home {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    background: url(back.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home .homeContent {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 64px;
+}
+
+.home .homeContent h2 {
+    font-size: 64px;
+    font-weight: bolder;
+    margin-bottom: 36px;
+    line-height: 64px;
+    color: black;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home .homeContent p {
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 36px;
+}
+
+section {
+    padding: 8px;
+}
+
+.product .productContent {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 3px;
+    color: black;
+    border-bottom: 3px solid orange;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blogs h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    border-bottom: 3px solid orange;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .card {
+    padding: 16px;
+    margin: 16px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.container .card h5 {
+    font-weight: bold;
+    border-bottom: 2px dashed orange;
+}
+
+.carousel {
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    color: aliceblue;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-caption p {
+    color: aliceblue;
+    font-size: 26px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.newsletter {
+    background: url(background.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.newsletter form {
+    max-width: 720px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.newsletter form h3 {
+    font-size: 48px;
+    color: white;
+    padding-bottom: 11px;
+}
+
+.newsletter form .box {
+    width: 50%;
+    margin: 11px 0;
+    padding: 16px 20px;
+    color: black;
+    border-radius: 8px;
+}
+
+.newsletter form .box2 {
+    width: 30%;
+    font-size: 28px;
+    margin-top: 16px;
+    padding: 8px 8px;
+    color: black;
+    background: white;
+    border-radius: 48px;
+    cursor: pointer;
+}
+
+.newsletter form .box2:hover {
+    color: white;
+    background-color: black;
+    outline: 2px solid white;
+}
+
+.review .reviewContent {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    border-bottom: 3px solid orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-form h1{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid orange;
+    color: orange;
+}
+.contact-form{
+	width: 100%;
+	padding: 70px 8% 50px;
+}
+.contact-form .contact-row{
+	width: 100%;
+	display: flex;
+	background-color: white;
+}
+.contact-row .column-1{
+	flex-basis: 40%;
+	min-width: 320px;
+	padding: 50px;
+}
+.contact-row .column-2{
+	flex-basis: 60%;
+}
+.column-1 .contactTitle h2{
+	position: relative;
+	font-size: 36px;
+	color: orange;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+.column-1 .contactTitle h2::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	top: 120%;
+	left: 0px;
+	background-color: orange;
+}
+.column-1 .contactTitle h2::after{
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 3px;
+	top: calc(120% - 1px);
+	left: 0px;
+	background-color: orange;
+}
+.column-1 .contactTitle p{
+	font-size: 15px;
+	color: black;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	padding-bottom: 20px;
+}
+.column-1 .form-1 .inputGroup{
+	position: relative;
+	margin: 40px 0px;
+}
+.column-1 .form-1 input{
+	width: 100%;
+	font-size: 18px;
+	padding: 2px 0px;
+	background-color: aliceblue;
+	color: orange;
+	border: none;
+	border-bottom: 1px solid orange;
+	outline: none;
+}
+.column-1 .form-1 label,
+.column-2 .form-2 label{
+	position: absolute;
+	left: 0;
+	bottom: 4px;
+	color: orange;
+	font-size: 15px;
+	transition: 0.4s;
+	pointer-events: none;
+}
+.column-2 .form-2 label{
+	top: 25px;
+	left: 20px;
+}
+.column-1 .form-1 input:focus ~ label,
+.column-1 .form-1 input:valid ~ label,
+.column-2 .form-2 textarea:focus ~ label,
+.column-2 .form-2 textarea:valid ~ label{
+	transform: translateY(-30px);
+	font-size: 14px;
+	opacity: 0.8;
+}
+.column-1 .contactSocialMedia{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px 0px 0px;
+}
+.column-1 .contactSocialMedia a{
+	width: 35px;
+	height: 35px;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 15px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background-color: orange;
+	transition: 0.4s;
+}
+.column-1 .contactSocialMedia a i{
+	color: white;
+	font-size: 18px;
+	line-height: 35px;
+	transition: 0.4s;
+}
+.column-1 .contactSocialMedia a:hover{
+	transform: translateY(-5px);
+	background-color: aliceblue;
+	border: 1px solid orange;
+}
+.column-1 .contactSocialMedia a:hover i{
+	color: orange;
+}
+.column-2 .form-2{
+	width: 100%;
+	height: calc(100% - 50px);
+	padding-top: 50px;
+}
+.column-2 .form-2 .inputGroup{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-left: 1px solid orange;
+}
+.column-2 .form-2 textarea{
+	width: 100%;
+	min-height: 100%;
+	display: block;
+	resize: none;
+	border: none;
+	outline: none;
+	background-color: aliceblue;
+	color: black;
+	padding: 20px;
+	font-size: 16px;
+}
+.column-2 .form-2 .form-button{
+	width: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	background-color: white;
+	color: black;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.column-2 .form-2 .form-button:hover{
+    border: 2px solid orange;
+    border-radius: 4px;
+	background-color: aliceblue;
+    color:orange;
+}
+.footer {
+    background: url(footer.jpeg) no-repeat;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mainBox,
+.box {
+    margin: 10px;
+    padding: 20px;
+}
+
+.box a {
+    display: block;
+    color: black;
+    padding: 10px;
+    border: 6px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+    opacity: 1;
+}
+
+.share a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.credit {
+    margin-top: 20px;
+    color: black;
+}
